@@ -5,7 +5,7 @@ variable "cluster_name" {
 }
 variable "location" {
   type        = string
-  default     = "australiaeast"
+  default     = "ukwest"
   description = "The Azure region in to which to provision the cluster"
 }
 
@@ -47,7 +47,7 @@ variable "dns_prefix" {
 }
 variable "cluster_version" {
   type        = string
-  default     = "1.18.10"
+  default     = "1.18.17"
   description = "Kubernetes version to use for the AKS cluster"
 }
 variable "network_resource_group_name" {
